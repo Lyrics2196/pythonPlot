@@ -91,7 +91,7 @@ def plot_example():
     # 保存图像 (可选格式：PDF, PNG, SVG等)
     plt.savefig("scientific_plot.pdf", dpi=300, bbox_inches="tight")
     plt.savefig("scientific_plot.png", dpi=300, bbox_inches="tight")
-    plt.savefig("scientific_plot.svg", bbox_inches="tight")
+    plt.savefig("scientific_plot.svg", format="svg", bbox_inches="tight")
 
     plt.show()
 
